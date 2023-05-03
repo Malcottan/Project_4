@@ -8,7 +8,7 @@ void piramidka (int side){
     int i;
     for(i = side; i > 0; --i){
         for(int o = i-1; o > 0; --o){
-            cout << "_";
+            cout << " ";
         }
         for(int p = c; p > 0; --p){
             if(p == 1){
